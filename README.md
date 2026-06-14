@@ -1,17 +1,21 @@
-# OpenGOAL Jak2 HD Texture Pack
+# OpenGOAL Jak 2 HD Texture Pack
 
-Fairly straight forward, I upscaled all the textures using ESRGAN (defaulted to 4x) and this is the result. Somethings did need to be removed, specifically the animated textures, as these break when upscaled at the moment, but as far as I can tell, it's unnoticable during gameplay. There are a FEW odd artifacts here and there, but only if you're really looking for them.
+Originally created by Melechtna, they had abandoned this repo so I took over ownership with their approval.
 
-# How to install
+My contribution is [Jak II - Refreshed HUD](https://github.com/Aloqas/Jak-II-Refreshed-HUD) which I merged with this. Refreshed HUD will remain as its own release though.
 
-Clone the repo using the code button on this repo and select download as zip, then load it into OpenGOAL's launcher, and enable it. Couldn't be simpler, and changes should only occur if A. I find something better B. I can add the animated textures down the line or C. the texture layout changes entirely. Other than that, enjoy!
+I don't plan on making improvements beyond that, but contributions are welcome.
 
-# Package it yourself
+Melechtna:
+"Fairly straight forward, I upscaled all the textures using ESRGAN (defaulted to 4x) and this is the result. Somethings did need to be removed, specifically the animated textures, as these break when upscaled at the moment, but as far as I can tell, it's unnoticable during gameplay. There are a FEW odd artifacts here and there, but only if you're really looking for them."
 
-After cloning it yourself, simply zip up the cover, metadata, and testure_replacements folder, then load it into OpenGOAL's launcher like stated in the install step.
+## Setup
+1. Click the 'Code' button on this repo and select 'Download ZIP'.
+2. Go into the folder that contains 'custom_assets' and the rest, select everything and create a ZIP.
+3. Load it up in the OpenGOAL launcher and enable it.
 
-# Warnings
 
-This will likely be heavy on your computer during initial install, my system hangs when initially compiling it, but runs smooth as butter once it's done. Expect your computer to choke a little when adding in all the textures.
+I would've made a GitHub release for easier installation, but hit a file size limit. Oh well...
 
-
+## Warning
+This will likely be heavy on your computer during initial install, but once it's done it'll run nice and smooth in game. Expect your computer to choke a little when adding in all the textures.
